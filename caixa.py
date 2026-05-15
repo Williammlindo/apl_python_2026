@@ -3,4 +3,4 @@ numero = int(input("Digite um numero inteiro:"))
 if numero % 2 == 0:
     print("O numero é par!")    
 else:   
-    prit("O numero é impar!")
+    print("O numero é impar!")
