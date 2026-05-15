@@ -1,7 +1,6 @@
-preco = float(input("Digite o valor: "))
-Quantidade = float(input("Digite a quantidade do produto: "))
+numero = int(input("Digite um numero inteiro:"))
 
-total = preco * Quantidade
-
-print (f"O resultado é {total}")
-
+if numero % 2 == 0:
+    print("O numero é par!")    
+else:   
+    prit("O numero é impar!")

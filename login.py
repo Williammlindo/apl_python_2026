@@ -5,3 +5,25 @@ if (usuario == "procopio" and senha == "12345") or (usuario == "paiva" and senha
     print("Seja bem vindo")
 else:
     print("Usuario ou senha nao confere")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  int: assucena 2025
