@@ -3,7 +3,7 @@ numero = 0
 quantidade = 0
 maior_numero = 0
 while numero >=0:
-    numero = int(input("Digite umnumero inteiro:"))
+    numero = int(input("Digite um numero inteiro:"))
     soma += numero
     quantidade += 1
     if numero >maior_numero:
