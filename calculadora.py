@@ -14,26 +14,8 @@ Escolha a operação: """))
         os.system("clear")
         print("Fim")
         break
-
-    num1 = float(input("Digite o primeiro numero: "))
-    num2 = float(input("Digite o segundo numero: "))
-
+    num1 = int(input("Digite o primeiro numero:"))
+    num2 = int(input("Digite o segundo numero:"))
 
     if opcao ==1:
-        Resultado = num1 + num2
-        print(f"O resultado e {Resultado}")
-
-    elif opcao ==2:
-        Resultado = num1 - num2
-        print(f"O resultado e {Resultado}")
-
-    elif opcao ==3:
-        Resultado = num1 / num2
-        print(f"O resultado e {Resultado}")
-
-    elif opcao ==4:
-        Resultado = num1 * num2
-        print(f"O resultado e {Resultado}")
-
-    else:
-        print("Opcao invalida")
+        resultA

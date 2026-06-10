@@ -1,14 +1,19 @@
 soma = 0
-numero = 0
+numero = 1
 quantidade = 0
 maior_numero = 0
 while numero >=0:
-    numero = int(input("Digite um numero inteiro:"))
-    soma += numero
-    quantidade += 1
-    if numero >maior_numero:
-        maior_numero = numero
+    numero = int(input("Digite os numeros inteiros"))
 
-print(f"soma:{soma}")
-print(f"media:{soma / quantidade:.2f}")
-print(f"o maior numero é : {maior_numero}")
+    if numero >0:
+        soma += numero
+        quantidade +=1
+    if numero > maior_numero:
+        maior_numero = numero
+print(f"Soma: {soma}")
+
+if quantidade >0:
+    print(f"Media: {soma / quantidade}")
+    print(f"Maior numero: {maior_numero}")
+else:
+    print("Nenhum numero inteiro informado")
