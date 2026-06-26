@@ -1,8 +1,8 @@
-num = int(input("Digite o numero:"))
+numero = int(input("Digite um número inteiro positivo: "))
 
-if num % 2==0:
-    resultado = num ** 2
-
+if numero % 2 == 0:
+    resultado = numero ** 2  
 else:
-    resultado = num ** 3
-print("Resultado:", resultado)
+    resultado = numero ** 3  
+
+print("Valor calculado:", resultado) 
